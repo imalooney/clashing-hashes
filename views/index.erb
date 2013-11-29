@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+        	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic' rel='stylesheet' type='text/css'>
+        	<link rel="stylesheet" href="application.css" type="text/css" />
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script src="really_cool.js"></script>
+            <meta charset="UTF-8">
+            <title>Clashing Hashes</title>
+        </head>
+        <body>
+        	<div class="container">
+	<!--         	<h1>My name is <%= @name %></h1>
+	        	<% if @show_description %>
+	        		<p>This is my description</p>
+	        	<% end %> -->
+	        	<!-- <div class="overlay"></div> -->
+	        	<div class="content">
+		        	<h1>Clashing Hashes</h1>
+		        	<p>Pick two popular Twitter hashes you want to compare.</p>
+					<form action="/twitter" method=POST>
+						<div class="input">
+							<label for="first_hash">Hash 1:</label>
+							<input type="text" name="first_hash" id="hash_1" />
+						</div>
+						<div class="input">
+							<label for="hash_2">Hash 2:</label>
+							<input type="text" name="second_hash" id="hash_2" />
+						</div>
+						<div class="input">
+							<input id="submit" type="submit" value="Submit" />
+						</div>
+					</form>
+				</div>
+			</div>
+        </body>
+    </html>
+
+
+

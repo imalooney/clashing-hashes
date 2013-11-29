@@ -1,0 +1,72 @@
+* {
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 2em;
+}
+
+label {
+	font-size: 1.7em;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: url('https://g.twimg.com/about/hero-tile.jpg');
+}
+
+.container {
+	background: url('http://sirlucian.com/images/new-twitter-bird-transparent.png') no-repeat;
+	background-size: 100% auto;
+	height: 600px;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.overlay {
+	background: rgba(255, 255, 255, .4);
+	height: 100%;
+	width: 700px;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+}
+
+.content {
+	padding: 10px 20px;
+}
+
+.input {
+	display: block;
+	clear: both;
+	float:left;
+	padding: 10px 0;
+}
+
+input {
+	font-size: 1.4em;
+	margin-left: 20px;
+	color: gray;
+	font-family: sans-serif;
+}
+
+#submit {
+	width: 100px;
+	color: gray;
+	font-size: 3em;
+	margin-left: 0;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.5em;
+}
