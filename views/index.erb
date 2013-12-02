@@ -6,7 +6,7 @@
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 			<script src="really_cool.js"></script>
             <meta charset="UTF-8">
-            <title>Clashing Hashes</title>
+            <title>Follower Compare</title>
         </head>
         <body>
         	<div class="container">
@@ -16,16 +16,16 @@
 	        	<% end %> -->
 	        	<!-- <div class="overlay"></div> -->
 	        	<div class="content">
-		        	<h1>Clashing Hashes</h1>
-		        	<p>Pick two popular Twitter hashes you want to compare.</p>
+		        	<h1>Follower Compare</h1>
+		        	<p>Pick two Twitter handles to begin the compare-athon.</p>
 					<form action="/twitter" method=POST>
 						<div class="input">
-							<label for="first_hash">Hash 1:</label>
-							<input type="text" name="first_hash" id="hash_1" />
+							<label for="first_user">Username 1:</label>
+							<input type="text" name="first_user" id="user_1" />
 						</div>
 						<div class="input">
-							<label for="hash_2">Hash 2:</label>
-							<input type="text" name="second_hash" id="hash_2" />
+							<label for="second_user">Username 2:</label>
+							<input type="text" name="second_user" id="user_2" />
 						</div>
 						<div class="input">
 							<input id="submit" type="submit" value="Submit" />

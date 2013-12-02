@@ -18,7 +18,7 @@ end
 # Post request for /twitter
 post '/twitter' do
   # your code goes here
-  @first_hash = params[:first_hash] 
-  @second_hash = params[:second_hash]
+  @first_user = params[:first_user] 
+  @second_user = params[:second_user]
   erb :result
 end
